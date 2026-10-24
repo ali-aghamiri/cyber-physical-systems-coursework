@@ -14,6 +14,8 @@ I studied [*Beyond the Threaded Programming Model on Real-Time Operating Systems
 
 The [project guide](project/README.md) explains the scope of these artifacts. Benchmark figures discussed in the paper belong to its authors; this repository does not claim an independent reproduction of those experiments.
 
+I later added a [software-only reactor scheduling demo](project/software-demo/reactor_demo.py) with tests. It illustrates deterministic logical-time and microstep ordering through a sensor–controller–actuator pipeline. It is an educational follow-up, not the Lingua Franca/Zephyr implementation or a reproduction of the paper's timing results.
+
 ## Paper reviews
 
 | # | Paper and topic | My review |
@@ -28,4 +30,5 @@ A short [seminar note on zero-knowledge proofs for CPS/IoT](notes/cps-seminar-ze
 
 ## Attribution and public scope
 
-The linked PDFs are my own course notes, reviews, and presentation. Original research articles, instructor slides, and other third-party course materials are not redistributed. Student ID numbers have been removed from the public PDF copies. No source code for the Lingua Franca benchmark was present in the course folder, so this repository presents the documented paper study and setup work rather than an executable benchmark.
+The linked PDFs are my own course notes, reviews, and presentation. Original research articles, instructor slides, and other third-party course materials are not redistributed. Student ID numbers have been removed from the public PDF copies. No source code for the Lingua Franca benchmark was present in the course folder, so this repository presents the documented paper study and a separate software demonstration rather than an executable hardware benchmark.
+
